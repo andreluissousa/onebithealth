@@ -2,20 +2,15 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     formContent: {
-       flex: 1,
-       justifyContent: "space-around",
-       backgroundColor: "#ffffff",
-       marginTop: 30,
-       alignItems: "center",
-       borderTopLeftRadius: 30,
-       borderTopRightRadius: 30,
-       paddingTop: 10,
+        flex: 1, 
+        backgroundColor: "#ffffff",
+        borderTopLeftRadius: 30,
+        borderTopRightRadius: 30,
+        alignItems: "center",
+        paddingTop: 10,
     },
     form: {
         width: "100%",
-        height: "auto",
-        marginTop: 5,
-        padding: 10,
     },
     formLabel: {
         color: "#000000",
@@ -28,7 +23,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#f6f6f6",
         height: 40,
         margin: 8,
-        marginTop: 1,
         paddingLeft: 10
     },
     buttonCalculator: {
@@ -40,17 +34,23 @@ const styles = StyleSheet.create({
         paddingTop: 14,
         paddingBottom: 14,
         marginLeft: 12,
+        marginRight: 12,
         marginTop: 30
     },
     textButtonCalculator: {
         fontSize: 20,
-        color: "#ffffff"
+        color: "#ffffff",
+        paddingHorizontal: 30
     },
     errorMessage: {
         fontSize: 12, 
         color: "red",
         fontWeight: "bold",
         paddingLeft: 20
+    },
+    exibitionResultImc: {
+        width: "100%",
+        height: "50%"
     }
 })
 
